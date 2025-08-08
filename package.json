@@ -1,5 +1,5 @@
 {
-    "name": "music-app",
+    "name": "nuxt-app",
     "private": true,
     "type": "module",
     "scripts": {
