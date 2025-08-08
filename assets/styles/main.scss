@@ -1,0 +1,90 @@
+@import '../fonts/fonts.css';
+@import './colors.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'HACKED', 'Bebas Neue', 'Agrandir', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+.container {
+    max-width: 1920px !important;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.titles {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    @media screen and (max-width: 425px) {
+        font-size: 32px;
+        line-height: normal;
+    }
+}
+
+.btn-small {
+    font-family: 'Agrandir Grand Heavy';
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 8px 40px;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    border-radius: 8px;
+    line-height: 24px;
+    transition: .3s;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.btn-medium {
+    font-family: 'Agrandir Text Bold';
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    padding: 16px 64px;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    border-radius: 8px;
+    transition: .3s;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.btn-large {
+    font-family: 'Agrandir Text Bold';
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 16px 64px;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    border-radius: 8px;
+    transition: .3s;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.btn-icon {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    padding: 8px;
+    border-radius: 8px;
+    transition: .3s;
+    &:hover {
+        opacity: 0.8;
+    }
+}
