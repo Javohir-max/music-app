@@ -62,15 +62,10 @@
                 align-items: start;
                 gap: 32px;
                 @media screen and (max-width: 768px) {
-<<<<<<< HEAD
-                    align-items: center;
-                    gap: 24px;
-=======
                     width: 100%;
                     align-items: center;
                     gap: 24px;
                     padding: 0 30px;
->>>>>>> cb79cb9 (Update App)
                 }
                 @media screen and (max-width: 425px) {
                     width: 100%;
