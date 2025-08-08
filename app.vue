@@ -82,19 +82,19 @@ onMounted(() => {
       </div>
       <nav class="nav__menu">
         <li>
-          <a class="link-active" href="#home">Home</a>
+          <a @click="openAndClose(false)" class="link-active" href="#home">Home</a>
         </li>
         <li>
-          <a href="#info">Info</a>
+          <a @click="openAndClose(false)" href="#info">Info</a>
         </li>
         <li>
-          <a href="#release">release</a>
+          <a @click="openAndClose(false)" href="#release">release</a>
         </li>
         <li>
-          <a href="#videos">Videos</a>
+          <a @click="openAndClose(false)" href="#videos">Videos</a>
         </li>
         <li>
-          <a href="#merch">Merch</a>
+          <a @click="openAndClose(false)" href="#merch">Merch</a>
         </li>
       </nav>  
       <button class="btn-small">Book us</button>

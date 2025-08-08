@@ -23,6 +23,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        @media screen and (max-width: 425px) {
+            background: url('../assets/images/Mobil-Background.png') no-repeat center;
+            background-size: cover;
+        }
         .content {
             width: 425px;
             display: flex;
